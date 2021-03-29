@@ -3,6 +3,7 @@
 </script>
 
 <main>
+	<a href="/bulma-demo" class="button is-primary">goto demo page</a>
 	<h1>Hello world!</h1>
 
 	<Counter />
