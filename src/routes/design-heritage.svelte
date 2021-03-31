@@ -1,8 +1,8 @@
-Design Heritage
+<h1>Design Heritage</h1>
 
-Homework Task
+<h2>Homework Task</h2>
 
-SIZE: 1 x A3 Maximum
+<h3>SIZE: 1 x A3 Maximum</h3>
 Pick one of the following Architects to create an A3 poster, read the assessment criteria:
 
 Mies Van der Rohe
@@ -12,10 +12,10 @@ Le Cobuisier
 Frank Lloyd Wright
 Daniel Libeskind
 
-Creative Challenge...
+<h3>Creative Challenge...</h3>
 Your presentation should reflect the style of the architect you have studied (shapes colours textures etc.).
 
-Answer...
+<h3>Answer...</h3>
 What are the key features of their work?- aesthetic (looks) and functional (working)
 Include examples of their work and a little notes
 
