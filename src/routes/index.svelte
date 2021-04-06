@@ -6,15 +6,17 @@
 <Header />
 <Nav />
 
-<main>
-
-Design Heritage 
-Visual Communication
-
+<main class="hero is-large has-bg-img">
+	<div class="hero-body">
+		<div class="container has-text-centered">
+			<button class="button is-large is-dark">Design Heritage</button>
+			<button class="button is-large is-dark">Visual Communication</button>
+		</div>
+	</div>
 </main>
 
 <style>
-	/* grid layout 
+	/* grid layout */
 	Header {
 		grid-area: h;
 	}
@@ -28,6 +30,7 @@ Visual Communication
 		grid-area: f;
 	}
 
+	:global(#svelte) {
 		display: grid;
 		grid:
 			' h   h   ' auto
@@ -49,5 +52,12 @@ Visual Communication
 	:global(main) {
 		font-family: 'Open Sans', sans-serif;
 	}
+
+    button {
+        margin-right: 4em; 
+        margin-left: 4em;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+
 
 </style>
