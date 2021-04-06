@@ -6,6 +6,8 @@ $primary: #CBD4C2;
 $dark: #50514F;
 $light: #FFFCFF;
 
+.has-bg-img { background: url('/Users/alyshabradley/DigiTemp/level-two-2.4/static/images/image4.jpg') center center; background-size:cover; }
+
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all";
 @import "../node_modules/bulma/sass/base/_all";
