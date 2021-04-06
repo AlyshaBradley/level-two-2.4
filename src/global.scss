@@ -2,6 +2,9 @@
 
 // restore default behaviour
 $body-overflow-y: auto;
+$primary: #CBD4C2;
+$dark: #50514F;
+$light: #FFFCFF;
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all";
