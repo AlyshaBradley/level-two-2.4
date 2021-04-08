@@ -1,5 +1,5 @@
 <footer>
-    &copy; Alysha Bradley 
+   <p>&copy; Alysha Bradley</p> 
 </footer>
 
 <style>

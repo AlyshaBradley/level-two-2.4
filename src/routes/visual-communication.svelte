@@ -1,3 +1,12 @@
+<script>
+	import Header from '$lib/Header.svelte';
+	import Nav from '$lib/Nav.svelte';
+	import Footer from '$lib/Footer.svelte';
+</script>
+
+<Header />
+<Nav />
+
 <h1>Visual Communication</h1>
 
 <h2>Assessment Tasks</h2>
@@ -43,7 +52,7 @@ Add the wall thickness (walls are 100mm so will be drawn as 2mm thick )
 Use the diagrams below to work out the correct measurements at scale 1:50
 Once you have completed the plan view (floor plan) complete the 3 elevations and then move onto a perspective sketch. 
 
-
+<Footer />
 
 
                            
