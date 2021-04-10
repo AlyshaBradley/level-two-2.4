@@ -3,37 +3,39 @@
 	import Nav from '$lib/Nav.svelte';
 	import Footer from '$lib/Footer.svelte';
 </script>
-
+<section>
 <Header />
 <Nav />
 
 <main class="hero is-large">
 	<div class="hero-body has-bg-img">
 		<div class="container has-text-centered">
-			<button class="button is-large is-dark">Design Heritage</button>
-			<button class="button is-large is-dark">Visual Communication</button>
+			<a class="button is-large is-dark" href="design-heritage">Design Heritage</a>
+			<a class="button is-large is-dark" href="visual-communication">Visual Communication</a>
 		</div>
 	</div>
 </main>
 
 <Footer />
 
+</section>
+
 <style>
 	/* grid layout */
-	Header {
+	:global(Header) {
 		grid-area: h;
 	}
-	Nav {
+	:global(Nav) {
 		grid-area: n;
 	}
-	main {
+	:global(main) {
 		grid-area: m;
 	}
-	Footer {
+	:global(Footer) {
 		grid-area: f;
 	}
 
-	:global(body) {
+	section {
 		display: grid;
 		grid:
 			' h  ' auto
@@ -52,11 +54,15 @@
 		font-family: 'Alegreya Sans SC', sans-serif;
 	}
 
+	:global(h3) {
+		font-family: 'Alegreya Sans SC', sans-serif;
+	}
+
 	:global(main) {
 		font-family: 'Open Sans', sans-serif;
 	}
 
-	button {
+	a {
 		margin-right: 4em;
 		margin-left: 4em;
 		font-family: 'Alegreya Sans SC', sans-serif;
