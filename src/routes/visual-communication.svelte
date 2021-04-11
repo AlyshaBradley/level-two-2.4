@@ -9,16 +9,19 @@
 	<Nav />
 
 	<main>
+		<div class="visual-communication">
 			<h1 align="center">Visual Communication</h1>
 
 			<h2 align="center">Assessment Tasks</h2>
+
+		</div>
 
 		<div class="box">
 			<img
 				src="static/images/image10.jpg"
 				alt="Perspective"
 				align="left"
-				width="20%"
+				width="23%"
 				height="auto"
 			/>
 			<h3>1.Perspective</h3>
@@ -35,7 +38,7 @@
 				src="static/images/image8.jpg"
 				alt="Perspective Bird Houses"
 				align="left"
-				width="20%"
+				width="22%"
 				height="auto"
 			/>
 			<h3>2.Perspective Bird Houses</h3>
@@ -57,7 +60,7 @@
 				src="static/images/image9.jpg"
 				alt="Architectural Symbols"
 				align="left"
-				width="20%"
+				width="28%"
 				height="auto"
 			/>
 			<h3>4. Architectural Symbols</h3>
@@ -71,13 +74,14 @@
 
 		<div class="box">
 			<img
-				src="static/images/image11.png"
-				alt="Architectural Plan"
+				src="static/images/image.jpg"
+				alt="Architectural Plans and Elevations"
 				align="left"
-				width="20%"
+				width="34%"
 				height="auto"
 			/>
 			<h3>5. Architectural Plans, & Elevations</h3>
+
 			<p>
 				Draw an accurate to scale 1x floor plan, 3 elevations and 1xperspective of the cabin. You
 				will be drawing at scale 1:50 for the elevations and floor plan. Add the wall thickness
@@ -86,14 +90,9 @@
 				complete the 3 elevations and then move onto a perspective sketch.
 			</p>
 
-			<img
-				src="static/images/image14.png"
-				alt="Architectural Elevation"
-				align="left"
-				width="20%"
-				height="auto"
-			/>
+			
 		</div>
+
 	</main>
 
 	<Footer />
@@ -125,6 +124,16 @@
 			/ 1fr 4fr 1fr;
 	}
 
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
 	h3 {
 		font-size: large;
 		font-weight: bold;
@@ -139,5 +148,7 @@
 	img {
 		padding: 2em
 	}
+
+
 
 </style>
