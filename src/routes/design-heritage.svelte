@@ -4,15 +4,16 @@
 	import Footer from '$lib/Footer.svelte';
 </script>
 
-<div>
+<section>
 	<Header />
 	<Nav />
 
 	<main>
-		<h1>Design Heritage</h1>
+		<h1 align="center">Design Heritage</h1>
 
-		<h2>Homework Task</h2>
+		<h2 align="center">Homework Task</h2>
 
+		<div class="box">
 		<h3>SIZE: 1 x A3 Maximum</h3>
 		<p>
 			Pick one of the following Architects to create an A3 poster, read the assessment criteria:
@@ -27,11 +28,19 @@
 			<li>Daniel Libeskind</li>
 		</ol>
 
+	</div>
+
+	<div class="box">
+
 		<h3>Creative Challenge...</h3>
 		<p>
 			Your presentation should reflect the style of the architect you have studied (shapes colours
 			textures etc.).
 		</p>
+
+	</div>
+
+	<div class="box">
 
 		<h3>Answer...</h3>
 		<p>
@@ -46,12 +55,15 @@
 			are made from? Are there any interesting facts you have found about them? Include a quote that
 			they have said
 		</p>
+
+	</div>
+
 	</main>
 
 	<Footer />
-</div>
+</section>
 
-<!-- hello -->
+<!-- style 1 -->
 <style>
 	Header {
 		grid-area: h;
@@ -66,7 +78,7 @@
 		grid-area: f;
 	}
 
-	div {
+	section {
 		background-color:#FFFCFF;
 		display: grid;
 		grid:
@@ -77,4 +89,85 @@
 			/ 1fr 4fr 1fr
 		
 	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
+	h3 {
+		font-size: large;
+		font-weight: bold;
+		padding: 1em;
+	}
+
+	p {
+		padding: 1em;
+	}
+
+	ol {
+		padding: 2em;
+	}
+
+</style> 
+
+
+<!-- style 2 
+
+<style>
+	Header {
+		grid-area: h;
+	}
+	Nav {
+		grid-area: n;
+	}
+	main {
+		grid-area: m;
+	}
+	Footer {
+		grid-area: f;
+	}
+
+	section {
+		background-color:#FFFCFF;
+		display: grid;
+		grid:
+			' h h n n ' auto
+			' . m m . ' auto
+			' f f f f ' auto
+			/ 1fr 2fr 2fr 1fr
+		
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
+	h3 {
+		font-size: large;
+		font-weight: bold;
+		padding: 1em;
+	}
+
+	p {
+		padding: 1em;
+	}
+
+	ol {
+		padding: 2em;
+	}
+
 </style>
+
+-->

@@ -140,15 +140,8 @@
 		padding: 1em;
 	}
 
-	.heading {
-		font-size: large;
-		text-align: center;
-	}
-
 	img {
 		padding: 2em
 	}
-
-
 
 </style>

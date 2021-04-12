@@ -38,12 +38,11 @@
 	section {
 		display: grid;
 		grid:
-			' h  ' auto
-			' n  ' auto
-			' m  ' auto
-			' f  ' auto
-			/ 1fr ;
-	}
+			' h n ' auto
+			' m m ' auto
+			' f f ' auto
+			/ 1fr 1fr ;
+		}
 
 	/* global styles */
 	:global(h1) {
