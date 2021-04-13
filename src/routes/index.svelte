@@ -38,7 +38,8 @@
 	section {
 		display: grid;
 		grid:
-			' h n ' auto
+			' h h ' auto
+			' n n ' auto
 			' m m ' auto
 			' f f ' auto
 			/ 1fr 1fr ;
