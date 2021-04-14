@@ -20,6 +20,7 @@
 
 </section>
 
+<!-- style 1 
 <style>
 	/* grid layout */
 	:global(Header) {
@@ -67,4 +68,105 @@
 		margin-left: 4em;
 		font-family: 'Alegreya Sans SC', sans-serif;
 	}
-</style>
+</style> -->
+
+<!-- style two 
+
+<style>
+	/* grid layout */
+	:global(Header) {
+		grid-area: h;
+	}
+	:global(Nav) {
+		grid-area: n;
+	}
+	:global(main) {
+		grid-area: m;
+	}
+	:global(Footer) {
+		grid-area: f;
+	}
+
+	section {
+		display: grid;
+		grid:
+			' h n ' auto
+			' m m ' auto
+			' f f ' auto
+			/ 1fr 1fr ;
+		}
+
+	/* global styles */
+	:global(h1) {
+		font-family: 'Petit Formal Script', cursive;
+	}
+
+	:global(h2) {
+		font-family: 'Alegreya Sans SC', sans-serif;
+	}
+
+	:global(h3) {
+		font-family: 'Alegreya Sans SC', sans-serif;
+	}
+
+	:global(main) {
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	a {
+		margin-right: 4em;
+		margin-left: 4em;
+		font-family: 'Alegreya Sans SC', sans-serif;
+	}
+</style> -->
+
+<!-- style three -->
+
+<style>
+	/* grid layout */
+	:global(Header) {
+		grid-area: h;
+	}
+	:global(Nav) {
+		grid-area: n;
+	}
+	:global(main) {
+		grid-area: m;
+	}
+	:global(Footer) {
+		grid-area: f;
+	}
+
+	section {
+		display: grid;
+		grid:
+			' h h ' auto
+			' n n ' auto
+			' m m ' auto
+			' f f ' auto
+			/ 1fr 1fr ;
+		}
+
+	/* global styles */
+	:global(h1) {
+		font-family: 'Petit Formal Script', cursive;
+	}
+
+	:global(h2) {
+		font-family: 'Alegreya Sans SC', sans-serif;
+	}
+
+	:global(h3) {
+		font-family: 'Alegreya Sans SC', sans-serif;
+	}
+
+	:global(main) {
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	a {
+		margin-right: 4em;
+		margin-left: 4em;
+		font-family: 'Alegreya Sans SC', sans-serif;
+	}
+</style> -->

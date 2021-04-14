@@ -100,6 +100,12 @@
 					<p>
 						Your presentation should reflect the style of the architect you have studied (shapes
 						colours textures etc.).
+
+						<img
+							src="static/images/image2.png"
+							alt="Architectural Plans and Elevations"
+							align="center"
+						/>
 					</p>
 				</div>
 			</div>
@@ -126,9 +132,9 @@
 	<Footer />
 </section>
 
-<!-- style 2 
-
+<!-- style 1 
 <style>
+
 	Header {
 		grid-area: h;
 	}
@@ -143,14 +149,14 @@
 	}
 
 	section {
-		background-color:#FFFCFF;
+		background-color: #fffcff;
 		display: grid;
 		grid:
-			' h h n n ' auto
-			' . m m . ' auto
-			' f f f f ' auto
-			/ 1fr 2fr 2fr 1fr
-		
+			' h h  h ' auto
+			' n n  n ' auto
+			' . m . ' auto
+			' f f f ' auto
+			/ 1fr 4fr 1fr;
 	}
 
 	h1 {
@@ -176,12 +182,13 @@
 	ol {
 		padding: 2em;
 	}
+</style> -->
 
-</style>
+
 
 -->
 
-<!-- style 1 -->
+<!-- style 2 -->
 <style>
 	Header {
 		grid-area: h;
@@ -200,11 +207,10 @@
 		background-color: #fffcff;
 		display: grid;
 		grid:
-			' h h  h ' auto
-			' n n  n ' auto
-			' . m . ' auto
-			' f f f ' auto
-			/ 1fr 4fr 1fr;
+			' h h n n ' auto
+			' . m m . ' auto
+			' f f f f ' auto
+			/ 1fr 2fr 2fr 1fr;
 	}
 
 	h1 {
