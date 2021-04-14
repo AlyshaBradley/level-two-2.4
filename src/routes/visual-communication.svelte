@@ -234,9 +234,9 @@
 					/>
 
 				</div>
-			</div>
+		
 
-			<div class="column">
+
 				<div class="box">
 					<h3>3. Scale</h3>
 					<p>
@@ -246,6 +246,8 @@
 						all dimensions be in?
 					</p>
 				</div>
+			</div>
+				<div class="column">
 
 				<div class="box">
 					
@@ -262,9 +264,8 @@
 						align="center"
 					/>
 				</div>
-			</div>
+			
 
-			<div class="column">
 				<div class="box">
 
 					<h3>5. Architectural Plans, & Elevations</h3>
@@ -284,7 +285,7 @@
 				/>
 				</div>
 			</div>
-		</div>
+			</div>
 	</main>
 
 	<Footer />
