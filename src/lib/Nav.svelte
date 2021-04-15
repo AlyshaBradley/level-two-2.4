@@ -19,7 +19,7 @@
 	
 </style> -->
 
-<!-- navigation two 
+<!-- navigation two -->
 <nav>
 	<div class="buttons is-centered is-fullwidth">
 	<a class="button is-primary is-fullwidth" href=".">Home</a>
@@ -38,9 +38,9 @@
 		font-family: 'Alegreya Sans SC', sans-serif;
 	}
 
-</style> -->
+</style>
 
-<!-- navigation three -->
+<!-- navigation three 
 <nav>
 	<div class="buttons is-centered is-fullwidth">
 		<a class="button is-dark " href=".">Home</a>
@@ -66,4 +66,4 @@
 		margin-left: 1em;
 		margin-right: 1em;
 	}
-</style>
+</style> -->

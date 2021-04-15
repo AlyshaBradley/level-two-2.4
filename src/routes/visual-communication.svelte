@@ -96,7 +96,7 @@
 </section>
 -->
 
-<!-- Visual Communication 2 
+<!-- Visual Communication 2 -->
 
 <section>
 	<Header />
@@ -191,10 +191,9 @@
 	</main>
 
 	<Footer />
-</section> -->
+</section> 
 
-
-<!-- Visual Communication 3 -->
+<!-- Visual Communication 3 
 <section>
 	<Header />
 	<Nav />
@@ -216,26 +215,15 @@
 						different locations and make them different sizes.
 					</p>
 
-					<img
-						src="static/images/image10.jpg"
-						alt="Perspective"
-						align="center"
-					/>
+					<img src="static/images/image10.jpg" alt="Perspective" align="center" />
 				</div>
 
 				<div class="box">
 					<h3>2.Perspective Bird Houses</h3>
 					<p>Draw the bird houses. Add shadows and textures</p>
 
-					<img
-						src="static/images/image8.jpg"
-						alt="Perspective Bird Houses"
-						align="center"
-					/>
-
+					<img src="static/images/image8.jpg" alt="Perspective Bird Houses" align="center" />
 				</div>
-		
-
 
 				<div class="box">
 					<h3>3. Scale</h3>
@@ -247,10 +235,8 @@
 					</p>
 				</div>
 			</div>
-				<div class="column">
-
+			<div class="column">
 				<div class="box">
-					
 					<h3>4. Architectural Symbols</h3>
 					<p>
 						Draw up a plan view of a room that will show the following. Label each neatly in 3mm
@@ -258,16 +244,10 @@
 						texture. Double doors 3 windows Walls A sink, a toilet and bath Seating Add a north
 						symbol used for architecture Tiles Wooden flooring
 					</p>
-					<img
-						src="static/images/image9.jpg"
-						alt="Architectural Symbols"
-						align="center"
-					/>
+					<img src="static/images/image9.jpg" alt="Architectural Symbols" align="center" />
 				</div>
-			
 
 				<div class="box">
-
 					<h3>5. Architectural Plans, & Elevations</h3>
 
 					<p>
@@ -278,22 +258,18 @@
 						(floor plan) complete the 3 elevations and then move onto a perspective sketch.
 					</p>
 					<img
-					src="static/images/image.jpg"
-					alt="Architectural Plans and Elevations"
-					align="center"
-
-				/>
+						src="static/images/image.jpg"
+						alt="Architectural Plans and Elevations"
+						align="center"
+					/>
 				</div>
 			</div>
-			</div>
+		</div>
 	</main>
 
 	<Footer />
 </section> -->
 
-
-
- 
 <!-- style one --
 <style>
 	Header {
@@ -342,7 +318,7 @@
 	}
 </style> -->
 
-<!-- style two 
+<!-- style two -->
 <style>
 	Header {
 		grid-area: h;
@@ -387,9 +363,9 @@
 	img {
 		padding: 2em;
 	}
-</style> -->
+</style> 
 
-<!-- style two -->
+<!-- style three 
 <style>
 	Header {
 		grid-area: h;
@@ -435,4 +411,4 @@
 	img {
 		padding: 2em;
 	}
-</style> 
+</style> -->

@@ -64,7 +64,7 @@
 	<Footer />
 </section> -->
 
-<!-- Design Heritage 2 
+<!-- Design Heritage 2 -->
 <section>
 	<Header />
 	<Nav />
@@ -130,9 +130,9 @@
 	</main>
 
 	<Footer />
-</section> -->
+</section> 
 
-<!-- Design Heritage 3 -->
+<!-- Design Heritage 3 
 <section>
 	<Header />
 	<Nav />
@@ -249,7 +249,7 @@
 	}
 </style> -->
 
-<!-- style 2 
+<!-- style 2 -->
 <style>
 	Header {
 		grid-area: h;
@@ -299,7 +299,7 @@
 	}
 </style> -->
 
-<!-- style 3 -->
+<!-- style 3 
 <style>
 	Header {
 		grid-area: h;
@@ -348,4 +348,4 @@
 	ol {
 		padding: 2em;
 	}
-</style>
+</style> -->
