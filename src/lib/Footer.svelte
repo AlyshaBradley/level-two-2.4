@@ -1,17 +1,18 @@
 <footer>
-   <p>&copy; Alysha Bradley</p> 
+	<p>Photos: Katy Whelan</p>
+	<p>&copy; Alysha Bradley</p>
 </footer>
 
 <style>
-    footer {
-        background-color: #50514F;
-        font-family: 'Alegreya Sans SC', sans-serif;
-        text-align: center;
-    }
+	footer {
+		background-color: #50514f;
+		font-family: 'Alegreya Sans SC', sans-serif;
+		text-align: center;
+	}
 
-    p {
-        color: #FFFCFF;
-        padding-top: 1em;
-        padding-bottom: 1em;
-    }
+	p {
+		color: #fffcff;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
 </style>
