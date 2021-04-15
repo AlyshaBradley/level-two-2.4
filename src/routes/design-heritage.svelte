@@ -370,8 +370,8 @@
 			<ol type="1">
 				<li>Mies Van der Rohe</li>
 				<li>Zaha Hadid</li>
-				<li>Frank Gehery</li>
-				<li>Le Cobuisier</li>
+				<li>Frank Gehry</li>
+				<li>Le Corbusier</li>
 				<li>Frank Lloyd Wright</li>
 				<li>Daniel Libeskind</li>
 			</ol>
