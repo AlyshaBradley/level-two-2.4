@@ -413,6 +413,7 @@
 	}
 </style> -->
 
+<!--Final Outcome Visual Communication Page-->
 <section>
 	<Header />
 	<Nav />
@@ -508,8 +509,7 @@
 		background-color: #fffcff;
 		display: grid;
 		grid:
-			' h h h h ' auto
-			' n n n n ' auto
+			' h h n n ' auto
 			' . m m . ' auto
 			' f f f f ' auto
 			/ 1fr 2fr 2fr 1fr;
