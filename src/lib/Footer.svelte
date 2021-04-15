@@ -7,7 +7,6 @@
         background-color: #50514F;
         font-family: 'Alegreya Sans SC', sans-serif;
         text-align: center;
-        margin-top: 5em;
     }
 
     p {

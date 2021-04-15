@@ -462,5 +462,9 @@
 	ol {
 		padding: 2em;
 	}
+
+	main {
+		padding-bottom: 5em;
+	}
 </style>
 
